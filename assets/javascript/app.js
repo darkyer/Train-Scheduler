@@ -104,7 +104,7 @@ $(document).ready(function () {
 
         var removeButton = $("<button>");
         var trainId = key;
-        removeButton.addClass("btn btn-primary");
+        removeButton.addClass("btn btn-primary remove-button");
         removeButton.attr("data-id", trainId);
         removeButton.attr("id", "removeTrain");
         var icon = $("<i class='icon-trash'></i> icon-trash")
